@@ -7,7 +7,10 @@ pub mod process_type;
 pub mod python_process_type;
 /// A trait implementation for Ruby processes
 pub mod ruby_process_type;
+/// A trait implementation for Node processes
+pub mod node_process_type;
 
 pub use process_type::ProcessType;
 pub use python_process_type::PythonProcessType;
 pub use ruby_process_type::RubyProcessType;
+pub use node_process_type::NodeProcessType;
